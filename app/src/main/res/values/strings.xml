@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">greeting_card</string>
+    <string name="main_screen_enter_name">enter name here</string>
+    <string name="enter_name_here">enter name here</string>
+    <string name="main_scree_title_enter_name_here">Name:</string>
+    <string name="main_screen_Title_tile">Title:</string>
+    <string name="main_screen_Title">Tile</string>
+    <string name="main_screen_title_text">Text:</string>
+    <string name="main_screen_enter_text_here">enter text here</string>
+    <string name="main_screen_ButtonTest">Test</string>
+    <string name="main_screen_buttonLaunch">Launch</string>
 </resources>

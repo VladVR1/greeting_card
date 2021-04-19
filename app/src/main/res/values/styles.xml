@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main_screen_style_buttonTest">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/main_screen_style_button_test</item>
+    </style>
+
+    <style name="main_screen_style_buttonLaunch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/main_screen_style_button_launch</item>
+    </style>
+    <style name="main_screen_style_button_onfocus">
+        <item name="android:background">@drawable/main_screen_style_button_onfocus</item>
+
+    </style>
+
+    <style name="main_screen_style_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="main_screen_style_EditText">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

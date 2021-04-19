@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_start">20dp</dimen>
+    <dimen name="margin_Top">15dp</dimen>
+    <dimen name="text_Size">15dp</dimen>
+    <dimen name="button_text_size">20dp</dimen>
+
+</resources>

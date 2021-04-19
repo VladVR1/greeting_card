@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/homeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_snow">
+
+        <TextView
+            android:id="@+id/main_screen_title_enter_name_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/main_scree_title_enter_name_here"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/main_screen_input_name"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@color/white"
+            android:hint="@string/enter_name_here"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_title_enter_name_here">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/main_screen_Title_tile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/main_screen_Title_tile"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_input_name">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/main_screen_Title"
+            style="@style/main_screen_style_EditText"
+            android:hint="@string/main_screen_Title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_Title_tile">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/main_screen_title_text"
+            style="@style/main_screen_style_TextView"
+            android:text="@string/main_screen_title_text"
+            android:inputType="textMultiLine"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_Title">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/main_screen_Text"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@color/white"
+            android:hint="@string/main_screen_enter_text_here"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_title_text">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/main_screen_Photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/banana"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/main_screen_buttonTest"
+            style="@style/main_screen_style_buttonTest"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/main_screen_ButtonTest"
+            android:textSize="20dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_Text">
+
+        </Button>
+
+        <Button
+            android:id="@+id/main_screen_buttonLaunch"
+            style="@style/main_screen_style_buttonLaunch"
+            android:layout_width="150dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/main_screen_buttonLaunch"
+            android:textSize="20dp"
+            app:backgroundTint="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_buttonTest">
+
+        </Button>
+
+        <ImageSwitcher
+            android:id="@+id/main_screen_imageSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_screen_buttonLaunch">
+
+            <ImageView
+                android:id="@+id/main_screen_mordaSmile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fjb1" />
+
+            <ImageView
+                android:id="@+id/main_screen_mordaAndgry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fjb2">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/main_screen_mordaCry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fjb4">
+            </ImageView>
+        </ImageSwitcher>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
